@@ -1,38 +1,34 @@
-<div class="container">
-    <div class="row">
-        <div class="col-sm-12">
-            <nav class="navbar navbar-expand-md navbar-light bg-light oswaldregular">
-                <div class="mx-auto my-2 order-0 order-md-1 position-relative">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-                        Menu <i class="fa fa-bars" style="font-size: 16px"></i>
-                    </button>
-                </div>
-                <!-- mx-auto order-0 -->
-                <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
-                    <a href="/" class="nav-link">
-                        <img src="{{asset('thems')}}/img/logos.jpg" alt="logo-villa" width="20%">
-                        Villa Situ Cileunca
-                    </a>
-                    <ul class="navbar-nav text-center text-uppercase">
-                        <li class="nav-item">
-                            <a class="nav-link" href="/">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">Service <b class="caret"></b></a> 
-                          <ul class="dropdown-menu">
-                            <li class="nav-item-dropdown"><a href="#" class="nav-dropdown-link">Villa</a></li>
-                            <li class="nav-item-dropdown"><a href="#" class="nav-dropdown-link">Fun & Games</a></li>
-                          </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Kuliner</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+<header class="header_section">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg custom_nav-container">
+        <div class="fk_width" id="">
+          <div class="custom_menu-btn">
+            <button onclick="openNav()">
+              <span class="s-1"> </span>
+              <span class="s-2"> </span>
+              <span class="s-3"> </span>
+            </button>
+          </div>
+          <div id="myNav" class="overlay">
+            <div class="overlay-content">
+              <a href="#">Home</a>
+              <a href="#">About</a>
+              <a href="#">Packages</a>
+              <a href="#">Testimonial</a>
+            </div>
+          </div>
         </div>
+        <a class="navbar-brand" href="/">
+          <img src="{{asset('thems')}}/images/logo.png" alt="" />
+        </a>
+        <div class="user_option">
+          <a href="#">
+            <img src="{{asset('thems')}}/images/user-icon.png" alt="" />
+          </a>
+          <form class="form-inline my-2 my-lg-0  mb-3 mb-lg-0">
+            <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+          </form>
+        </div>
+      </nav>
     </div>
-</div>
+  </header>

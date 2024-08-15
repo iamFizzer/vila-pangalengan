@@ -1,14 +1,29 @@
-<div class="container">
-    <div class="row align-items-center">
-        <div class="col-md-6">
-            <img src="{{asset('thems')}}/img/logos.jpg" class="header-img" alt="" style="width: 100%">
-        </div>
-        <div class="col-md-6">
-            <h1 class="header-title">Villa Situ Cileunca</h1>
-            <p class="header-text">Platform Wisata dan Komunitas dengan beragam destinasi, tips liburan, dan kuliner sepangalengan</p>
-            <div class="header-btn">
-                <a href="https://wa.me/+62" class="btn btn-primary">Pesan Sekarang</a>
+<div class="hero_area">
+    @include('layouts.navbar')
+
+    <!-- slider section -->
+    <section class=" slider_section position-relative">
+      <div class="detail-box">
+        <div class="row">
+          <div class="col-md-8 col-lg-6 mx-auto">
+            <h1>
+              Book Now <br />
+              Villa Situ Cileunca
+            </h1>
+            <p>
+              Liburan Lebih Menyenangkan dan aman di villa situ cileunca pangalengan.
+            </p>
+            <div>
+              <a href="https://wa.me/+62">
+                Book now
+              </a>
             </div>
+          </div>
         </div>
-    </div>
-</div>
+      </div>
+      <div class="img-box">
+        <img src="{{asset('thems')}}/images/bus.png" class="slider-img" alt="" />
+      </div>
+    </section>
+    <!-- end slider section -->
+  </div>

@@ -1,21 +1,46 @@
 <!DOCTYPE html>
-<html lang="id">
+<html>
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Vila Situ Cileunca| Pangalengan</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-	<link href="{{asset('thems')}}/css/style.css" rel="stylesheet" type="text/css">
-	<script src="https://use.fontawesome.com/89b8dcd205.js"></script>
-	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-	<script src="{{asset('thems')}}/js/script.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Villa Situ Cileunca | home</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="{{asset('thems')}}/css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,500,700&display=swap" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="{{asset('thems')}}/css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="{{asset('thems')}}/css/responsive.css" rel="stylesheet" />
+</head>
+
 <body>
-    @include('layouts.navbar')
-	@include('layouts.hero')
-	{{-- @include('layouts.lower') --}}
-	@include('layouts.destinasi')
-	@include('layouts.footer')
+  @include('layouts.hero')
+  {{-- @include('layouts.lower') --}}
+  @include('layouts.destinasi')
+  @include('layouts.about')
+  @include('layouts.testimoni')
+  @include('layouts.footer')
+
+  <script type="text/javascript" src="{{asset('thems')}}/js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="{{asset('thems')}}/js/bootstrap.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script type="text/javascript" src="{{asset('thems')}}/js/custom.js"></script>
 </body>
+
 </html>

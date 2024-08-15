@@ -1,74 +1,49 @@
-<div class="container space">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="section-title text-center">
-                <h1>Data Wisata</h1>
-                <div class="line-title"></div>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-12">
-            <div class="card bg-danger text-white">
-              <div class="card-body">
-                  <div class="row align-items-center">
-                      <div class="col-8">
-                        <span class="text-corona">Total Positif</span>
-                        <span id="positif" class="count-corona"></span>
-                        <span class="text-corona">Orang</span>
-                      </div>
-                      <div class="col-4">
-                          <img src="{{asset('thems')}}/img/sad.png" class="img-icon" alt="" width="80" height="80">
-                      </div>
-                  </div>
+<section class="book_section ">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="heading_container">
+            <h2>
+              Book Now Your Ticket
+            </h2>
+            <p>
+              dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            </p>
+          </div>
+          <form>
+            <div class="form-row ">
+              <div class="form-group col-lg-4">
+                <label for="inputAddress1">Where</label>
+                <input type="text" class="form-control" id="inputAddress1" placeholder="1234 Main St">
+              </div>
+              <div class="form-group col-lg-4">
+                <label for="inputAddress2">To</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="1234 Main St">
+              </div>
+              <div class="form-group col-lg-4">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
               </div>
             </div>
-        </div>
-        <div class="col-md-3 col-sm-12">
-            <div class="card bg-success text-white">
-              <div class="card-body">
-                  <div class="row align-items-center">
-                      <div class="col-8">
-                        <span class="text-corona">Total Sembuh</span>
-                        <span id="recovered" class="count-corona"></span>
-                        <span class="text-corona">Orang</span>
-                      </div>
-                      <div class="col-4">
-                          <img src="{{asset('thems')}}/img/happy.png" class="img-icon" alt="" width="80" height="80">
-                      </div>
-                  </div>
+            <div class="form-row ">
+              <div class="form-group col-lg-4">
+                <label for="inputDate">Date</label>
+                <input type="date" class="form-control" id="inputDate" placeholder="1234 Main St">
+              </div>
+              <div class="form-group col-lg-4">
+                <label for="inputPrice">Price</label>
+                <input type="text" class="form-control" id="inputPrice" placeholder="1234 Main St">
+              </div>
+              <div class="form-group col-lg-4">
+                <label for="inputPhone">Phone Number</label>
+                <input type="text" class="form-control" id="inputPhone">
               </div>
             </div>
-        </div>
-        <div class="col-md-3 col-sm-12">
-            <div class="card bg-dark text-white">
-              <div class="card-body">
-                  <div class="row align-items-center">
-                      <div class="col-8">
-                        <span class="text-corona">Total Meninggal</span>
-                        <span id="dead" class="count-corona"></span>
-                        <span class="text-corona">Orang</span>
-                      </div>
-                      <div class="col-4">
-                          <img src="{{asset('thems')}}/img/worried.png" class="img-icon" alt="" width="80" height="80">
-                      </div>
-                  </div>
-              </div>
+            <div class="d-flex justify-content-center">
+              <button type="submit" class="btn ">Book Now</button>
             </div>
+          </form>
         </div>
-        <div class="col-md-3 col-sm-12">
-            <div class="card bg-info text-white">
-              <div class="card-body">
-                  <div class="row align-items-center">
-                      <div class="col-8">
-                        <span class="text-corona">Total Dirawat</span>
-                        <span id="active" class="count-corona"></span>
-                        <span class="text-corona">Orang</span>
-                      </div>
-                      <div class="col-4">
-                          <img src="{{asset('thems')}}/img/care.png" class="img-icon" alt="" width="80" height="80">
-                      </div>
-                  </div>
-              </div>
-            </div>
-        </div>
+      </div>
     </div>
-</div>
+  </section>
