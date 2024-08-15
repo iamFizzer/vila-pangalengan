@@ -19,16 +19,13 @@
               </form>
             </div>
             <div class="social_box">
-                <a href="#">
+                <a href="https://www.facebook.com/pages/Situ-Cileunca-Pangalengan/169485373091477">
                   <img src="{{asset('thems')}}/images/facebook.png" alt="">
                 </a>
-                <a href="#">
-                  <img src="{{asset('thems')}}/images/twitter.png" alt="">
+                <a href="https://www.instagram.com/vila_pangalengan?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                  <img src="{{asset('thems')}}/images/tiktok.png" alt="">
                 </a>
-                <a href="#">
-                  <img src="{{asset('thems')}}/images/linkedin.png" alt="">
-                </a>
-                <a href="#">
+                <a href="https://www.instagram.com/vila_pangalengan?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
                   <img src="{{asset('thems')}}/images/instagram.png" alt="">
                 </a>
                 <a href="#">
@@ -110,7 +107,7 @@
 
   <section class="footer_section ">
     <p>
-      &copy; 2020 All Rights Reserved. Design by
-      <a href="{{asset('thems')}}/https://html.design/">Free Html Templates</a>
+      &copy; 2024 All Rights Reserved. Design by
+      <a href="/">Villa Situ Cileunca Pangalengan</a>
     </p>
   </section>
