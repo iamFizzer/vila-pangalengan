@@ -605,8 +605,6 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url(../images/package-bg1.jpg);
-  background-position: bottom;
   background-size: cover;
   -webkit-transition: all .2s;
   transition: all .2s;
@@ -667,7 +665,7 @@ a:focus {
 }
 
 .package_section .package_container .box:hover, .package_section .package_container .box.active {
-  background-image: url(../images/package-bg2.jpg);
+  background-color: cadetblue;
 }
 
 .package_section .package_container .box:hover .detail-box .price_detail, .package_section .package_container .box.active .detail-box .price_detail {

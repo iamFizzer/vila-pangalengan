@@ -2,34 +2,33 @@
     <div class="container">
       <div class="heading_container">
         <h2>
-          Destinasi
+          Villa
         </h2>
         <p>
-          dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+          Villa yang kami sediakan dan pasti estetik. 
         </p>
       </div>
     </div>
     <div class="container">
       <div class="package_container">
-		
-        {{-- <div class="box ">
+        @foreach ($data as $item)
+        <div class="box">
+            <img src="{{asset('gambar')}}/{{$item->destination_pict}}" alt="{{$item->destination_name}}" width="50%">
           <div class="detail-box">
             <h4>
-              London
+              {{$item->destination_name}}
             </h4>
-            <div class="price_detail">
-              <h5>
-                $/1000
-              </h5>
-              <p>
-                It is a long established fact that a reader will be
-              </p>
-            </div>
-            <a href="{{asset('thems')}}/#">
+
+            <a href="/destinasi/detail">
+              Detail
+            </a>
+            <a href="https://wa.me/+62">
               Book Now
             </a>
           </div>
-        </div> --}}
+        </div>
+        @endforeach
+        
       </div>
     </div>
   </section>
