@@ -33,6 +33,7 @@
   @include('layouts.hero')
   {{-- @include('layouts.lower') --}}
   @include('layouts.destinasi')
+  @include('layouts.package')
   @include('layouts.about')
   @include('layouts.testimoni')
   @include('layouts.footer')

@@ -2,7 +2,7 @@
     <div class="container">
       <div class="heading_container">
         <h2>
-          Destinasi
+          Packages
         </h2>
         <p>
           dummy text of the printing and typesetting industry. Lorem Ipsum has been the
