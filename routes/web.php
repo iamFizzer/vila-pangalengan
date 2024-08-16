@@ -21,6 +21,16 @@ Route::get('/', [LandingController::class, 'index'])->name('landing');
 Auth::routes();
 
 Route::get('/admin/dashboard', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+//Destinasi
 Route::get('/admin/destinasi',[DestinasiController::class, 'destinasi'])->name('destinasi');
 Route::get('/admin/destinasi/tambah',[DestinasiController::class, 'tambah']);
+Route::get('/admin/destinasi/edit/{id}',[DestinasiController::class, 'edit']);
 Route::post('/admin/destinasi/add',[DestinasiController::class, 'store']);
+Route::post('/admin/destinasi/update/{id}',[DestinasiController::class, 'update']);
+Route::post('/admin/destinasi/delete/{id}',[DestinasiController::class, 'delete']);
+Route::get('/admin/destinasi/detail/{id}',[DestinasiController::class, 'detail']);
+
+
+//Paket
+Route::get('/admin/paket',[DestinasiController::class, 'paket'])->name('paket');

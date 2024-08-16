@@ -29,7 +29,6 @@
                         <a href="/admin/destinasi/detail/{{ $item->id }}" class="btn btn-sm btn-info">Detail</a>
                         <form action="/admin/destinasi/delete/{{ $item->id }}" method="post" class="d-inline">
                             @csrf
-                            @method('delete')
                             <button type="submit" class="btn btn-sm btn-danger">Delete</button>
                         </form>
                 </tr>

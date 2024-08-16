@@ -11,6 +11,7 @@
     </div>
     <div class="container">
       <div class="package_container">
+        @if ($data != null)    
         @foreach ($data as $item)
         <div class="box">
             <img src="{{asset('gambar')}}/{{$item->destination_pict}}" alt="{{$item->destination_name}}" width="50%">
@@ -19,7 +20,7 @@
               {{$item->destination_name}}
             </h4>
 
-            <a href="/destinasi/detail">
+            <a href="/destinasi/detail/{{$item->id}}">
               Detail
             </a>
             <a href="https://wa.me/+62">
@@ -28,6 +29,11 @@
           </div>
         </div>
         @endforeach
+        @else
+            <span>
+              Data villa belum tersedia
+            </span>
+        @endif
         
       </div>
     </div>
