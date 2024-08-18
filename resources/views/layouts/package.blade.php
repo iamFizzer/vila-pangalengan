@@ -5,31 +5,34 @@
           Packages
         </h2>
         <p>
-          dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+          Paket yang di sediakan oleh kami
         </p>
       </div>
     </div>
     <div class="container">
       <div class="package_container">
-		
-        {{-- <div class="box ">
-          <div class="detail-box">
-            <h4>
-              London
-            </h4>
-            <div class="price_detail">
-              <h5>
-                $/1000
-              </h5>
-              <p>
-                It is a long established fact that a reader will be
-              </p>
-            </div>
-            <a href="{{asset('thems')}}/#">
-              Book Now
-            </a>
-          </div>
-        </div> --}}
+        @if ($paket != null)    
+
+        @foreach ($paket as $item)    
+        <div class="box">
+          <img src="{{asset('gambar')}}/paket/{{$item->foto}}" alt="{{$item->foto}}" width="150px">
+        <div class="detail-box">
+          <h4>
+            {{$item->nama_paket}}
+          </h4>
+          <h5 style="color: black">{{$item->harga}}/{{$item->satuan}}</h5>
+          <a href="/paket/detail/{{$item->id}}">
+            Detail
+          </a>
+          <a href="https://wa.me/+62">
+            Book Now
+          </a>
+        </div>
+      </div>
+        @endforeach
+        @else
+            
+        @endif
       </div>
     </div>
   </section>

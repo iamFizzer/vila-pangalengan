@@ -4,7 +4,7 @@
         About Us
       </h2>
       <p>
-        dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+        villa paling nyaman di situ cileunca pangalengan.
       </p>
     </div>
     <div class="img-box">

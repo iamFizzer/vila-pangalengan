@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('nama_paket');
             $table->string('deskripsi');
             $table->string('harga');
+            $table->string('satuan');
             $table->string('foto');
             $table->timestamps();
         });

@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\DestinasiController;
 use App\Http\Controllers\LandingController;
+use App\Http\Controllers\PaketController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -33,4 +34,6 @@ Route::get('/admin/destinasi/detail/{id}',[DestinasiController::class, 'detail']
 
 
 //Paket
-Route::get('/admin/paket',[DestinasiController::class, 'paket'])->name('paket');
+Route::get('/admin/paket',[PaketController::class, 'paket'])->name('paket');
+Route::get('/admin/paket/tambah',[PaketController::class, 'tambah']);
+Route::post('/admin/paket/add',[PaketController::class, 'store']);
