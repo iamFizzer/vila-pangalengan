@@ -1,113 +1,30 @@
-<section class="info_section ">
-    <div class="info_container layout_padding-top">
-      <div class="container">
-        <div class="heading_container">
-          <h2>
-            Contact Us
-          </h2>
-        </div>
-        <div class="info_logo">
-          <img src="{{asset('thems')}}/images/logo.png" alt="">
-        </div>
-        <div class="info_top">
-            <div class="info_form">
-              <form action="">
-                <input type="text" id="email2" placeholder="Enter Your Email">
-                <button>
-                  subscribe
-                </button>
-              </form>
-            </div>
-            <div class="social_box">
-                <a href="https://www.facebook.com/pages/Situ-Cileunca-Pangalengan/169485373091477">
-                  <img src="{{asset('thems')}}/images/facebook.png" alt="">
-                </a>
-                <a href="https://www.instagram.com/vila_pangalengan?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-                  <img src="{{asset('thems')}}/images/tiktok.png" alt="">
-                </a>
-                <a href="https://www.instagram.com/vila_pangalengan?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-                  <img src="{{asset('thems')}}/images/instagram.png" alt="">
-                </a>
-                <a href="#">
-                  <img src="{{asset('thems')}}/images/youtube.png" alt="">
-                </a>
+<div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+  <div class="container py-5">
+      <div class="row g-5">
+          <div class="col-md-6 col-lg-6 col-xl-3">
+              <div class="footer-item d-flex flex-column">
+                  <h4 class="text-white mb-4"><i class="fas fa-star-of-life me-3"></i>Villa Situ Cileunca Pangalengan</h4>
+                  <p>Healing paling nyaman di vila situ cileunca pangalengan.
+                  </p>
+                  <div class="d-flex align-items-center">
+                      <i class="fas fa-share fa-2x text-white me-2"></i>
+                      <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                      <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                      <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                      <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                  </div>
               </div>
           </div>
-       
-
-        <div class="info_main">
-          <div class="row">
-            <div class="col-md-3">
-              <h5>
-                About Us
-              </h5>
-              <p>
-                Sudah paling nyaman nginap di villa situ cileunca pangalengan.
-              </p>
-            
-            </div>
-
-            <div class="col-md-3 col-lg-2 offset-lg-1">
-              <h5>
-                Patnership
-              </h5>
-            </div>
-            <div class="col-md-3">
-            </div>
+      </div>
+  </div>
+</div>
+<div class="container-fluid copyright py-4">
+  <div class="container">
+      <div class="row g-4 align-items-center">
+          <div class="col-md-6 text-center text-md-start mb-md-0">
+              <span class="text-white"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Villa Situ Cileunca</a>, All right reserved.</span>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-9 col-md-10 mx-auto">
-            <div class="info_contact layout_padding2">
-              <div class="row">
-                <div class="col-md-5">
-                  <a href="{{asset('thems')}}/#" class="link-box">
-                    <div class="img-box">
-                      <img src="{{asset('thems')}}/images/call.png" alt="">
-                    </div>
-                    <div class="detail-box">
-                      <h6>
-                        Call Now &nbsp; &nbsp; +62 .....
-                      </h6>
-                    </div>
-                  </a>
-                </div>
-                <div class="col-md-2">
-                  <a href="{{asset('thems')}}/#" class="link-box">
-                    <div class="img-box">
-                      <img src="{{asset('thems')}}/images/location.png" alt="">
-                    </div>
-                    <div class="detail-box">
-                      <h6>
-                        Location
-                      </h6>
-                    </div>
-                  </a>
-                </div>
-                <div class="col-md-5">
-                  <a href="https://maps.app.goo.gl/2CYQnMxA4Qx9Mtfc6" class="link-box">
-                    <div class="img-box">
-                      <img src="{{asset('thems')}}/images/mail.png" alt="">
-                    </div>
-                    <div class="detail-box">
-                      <h6>
-                      villasitucileunca@gmail.com
-                      </h6>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
 
       </div>
-    </div>
-  </section>
-
-  <section class="footer_section ">
-    <p>
-      &copy; 2024 All Rights Reserved. Design by
-      <a href="/">Villa Situ Cileunca Pangalengan</a>
-    </p>
-  </section>
+  </div>
+</div>

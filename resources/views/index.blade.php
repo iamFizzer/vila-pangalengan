@@ -1,48 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-<head>
-  <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
+    <head>
+        <meta charset="utf-8">
+        <title>Villa Situ Cileunca Pangalengan</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
 
-  <title>Villa Situ Cileunca | home</title>
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet"> 
 
-  <!-- slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-  <link rel="icon" href="{{asset('thems/images/logo.png')}}">
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="{{asset('thems')}}/css/bootstrap.css" />
+        <!-- Libraries Stylesheet -->
+        <link href="{{asset('thems')}}/lib/animate/animate.min.css" rel="stylesheet">
+        <link href="{{asset('thems')}}/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-  <!-- fonts style -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,500,700&display=swap" rel="stylesheet" />
 
-  <!-- Custom styles for this template -->
-  <link href="{{asset('thems')}}/css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="{{asset('thems')}}/css/responsive.css" rel="stylesheet" />
-</head>
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="{{asset('thems')}}/css/bootstrap.min.css" rel="stylesheet">
 
-<body>
-  @include('layouts.hero')
-  {{-- @include('layouts.lower') --}}
-  @include('layouts.destinasi')
-  @include('layouts.package')
-  @include('layouts.about')
-  @include('layouts.testimoni')
-  @include('layouts.footer')
+        <!-- Template Stylesheet -->
+        <link href="{{asset('thems')}}/css/style.css" rel="stylesheet">
+    </head>
 
-  <script type="text/javascript" src="{{asset('thems')}}/js/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="{{asset('thems')}}/js/bootstrap.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  <script type="text/javascript" src="{{asset('thems')}}/js/custom.js"></script>
-</body>
+    <body>
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <div class="container-fluid position-relative p-0">
+          @include('layouts.navbar')
+          @include('layouts.hero')
+        </div>
+        @include('layouts.destinasi')
+        @include('layouts.package')
+        @include('layouts.footer')
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="{{asset('thems')}}/lib/wow/wow.min.js"></script>
+        <script src="{{asset('thems')}}/lib/easing/easing.min.js"></script>
+        <script src="{{asset('thems')}}/lib/waypoints/waypoints.min.js"></script>
+        <script src="{{asset('thems')}}/lib/owlcarousel/owl.carousel.min.js"></script>
+        
+
+        <!-- Template Javascript -->
+        <script src="{{asset('thems')}}/js/main.js"></script>
+        
+    </body>
 
 </html>
