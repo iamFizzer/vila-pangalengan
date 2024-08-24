@@ -50,7 +50,7 @@ class DestinasiController extends Controller
                   'max:2048'
                 ]
               ]);
-    $imageName = $request->nama.'.'.$request->foto->extension();
+    $imageName ='destination'.$galeri.'.'.$request->foto->extension();
     $request->foto->move(public_path('gambar'),$imageName);
 
     $destination = new Destinasi();

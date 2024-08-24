@@ -1,30 +1,49 @@
-<div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
-  <div class="container py-5">
-      <div class="row g-5">
-          <div class="col-md-6 col-lg-6 col-xl-3">
-              <div class="footer-item d-flex flex-column">
-                  <h4 class="text-white mb-4"><i class="fas fa-star-of-life me-3"></i>Villa Situ Cileunca Pangalengan</h4>
-                  <p>Healing paling nyaman di vila situ cileunca pangalengan.
-                  </p>
-                  <div class="d-flex align-items-center">
-                      <i class="fas fa-share fa-2x text-white me-2"></i>
-                      <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                      <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
-                      <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
-                      <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                  </div>
+<footer class="section footer-modern context-dark footer-modern-2">
+    <div class="footer-modern-line-2">
+      <div class="container">
+        <div class="row row-30 align-items-center">
+          <div class="col-sm-6 col-md-7 col-lg-4 col-xl-4">
+            <div class="row row-30 align-items-center text-lg-center">
+              <div class="col-md-7 col-xl-6"><a class="brand" href="/"><img src="{{asset('gambar')}}/logo.png" alt="" width="198" height="66"/></a></div>
+              
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-12 col-lg-8 col-xl-8 oh-desktop">
+            <div class="group-xmd group-sm-justify">
+              <div class="footer-modern-contacts wow slideInUp">
+                <div class="unit unit-spacing-sm align-items-center">
+                  <div class="unit-left"><span class="icon icon-24 mdi mdi-phone"></span></div>
+                  <div class="unit-body"><a class="phone" href="tel:#">+628.....</a></div>
+                </div>
               </div>
+              <div class="footer-modern-contacts wow slideInDown">
+                <div class="unit unit-spacing-sm align-items-center">
+                  <div class="unit-left"><span class="icon mdi mdi-email"></span></div>
+                  <div class="unit-body"><a class="mail" href="mailto:#">info@villasitucileunca.com</a></div>
+                </div>
+              </div>
+              <div class="wow slideInRight">
+                <ul class="list-inline footer-social-list footer-social-list-2 footer-social-list-3">
+                  <li><a class="icon mdi mdi-facebook" href="#"></a></li>
+                  <li><a class="icon mdi mdi-twitter" href="#"></a></li>
+                  <li><a class="icon mdi mdi-instagram" href="#"></a></li>
+                  <li><a class="icon mdi mdi-google-plus" href="#"></a></li>
+                </ul>
+              </div>
+            </div>
           </div>
+        </div>
       </div>
-  </div>
-</div>
-<div class="container-fluid copyright py-4">
-  <div class="container">
-      <div class="row g-4 align-items-center">
-          <div class="col-md-6 text-center text-md-start mb-md-0">
-              <span class="text-white"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Villa Situ Cileunca</a>, All right reserved.</span>
+    </div>
+    <div class="footer-modern-line-3">
+      <div class="container">
+        <div class="row row-10 justify-content-between">
+          <div class="col-md-6"><span>Situ Cileunca Pangalengan</span></div>
+          <div class="col-md-auto">
+            <!-- Rights-->
+            <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span></span><span>.&nbsp;</span><span>All Rights Reserved.</span></span></p>
           </div>
-
+        </div>
       </div>
-  </div>
-</div>
+    </div>
+  </footer>

@@ -1,27 +1,33 @@
-<div class="hero_area">
-    <div class="header-carousel owl-carousel">
-        @foreach ($data as $hero)    
-        <div class="header-carousel-item">
-            <img src="{{asset('gambar')}}/{{$hero->destination_pict}}" class="img-fluid w-100" alt="Image">
-            <div class="carousel-caption">
-                <div class="carousel-caption-content">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <main>
-                                <img src="{{asset('gambar')}}/{{$hero->destination_pict}}" class="img-fluid" alt="" srcset="">
-                            </main>
-                        </div>
-                        <div class="col-md-6">
-                            <h5 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Villa Situ Cileunca</h5>
-                            <h1 class="display-1 text-capitalize text-white mb-4">{{$hero->destination_name}}</h1>
-                            <p class="mb-5 fs-5">{{$hero->desc}}</p>
-                            <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="https://wa.me/+628">Book Appointment</a>
-                        </div>
-                    </div>
+<section class="section swiper-container swiper-slider swiper-slider-2 swiper-slider-3" data-loop="true" data-autoplay="5000" data-simulate-touch="false" data-slide-effect="fade">
+    <div class="swiper-wrapper text-sm-left">
+        @foreach ($data as $hero)       
+        <div class="swiper-slide context-dark" data-slide-bg="{{asset('gambar')}}/{{$hero->destination_pict}}">
+          <div class="swiper-slide-caption section-md">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-9 col-md-8 col-lg-7 col-xl-7 offset-lg-1 offset-xxl-0">
+                  <h1 class="oh swiper-title"><span class="d-inline-block" data-caption-animate="slideInUp" data-caption-delay="0">{{$hero->destination_name}}</span></h1>
+                  <p class="big swiper-text" data-caption-animate="fadeInLeft" data-caption-delay="300">{{$hero->desc}}</p><a class="button button-lg button-primary button-winona button-shadow-2" href="https://wa.me/+628" data-caption-animate="fadeInUp" data-caption-delay="300">Book Now</a>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
         @endforeach
-       
     </div>
-  </div>
+    <!-- Swiper Pagination-->
+    <div class="swiper-pagination" data-bullet-custom="true"></div>
+    <!-- Swiper Navigation-->
+    <div class="swiper-button-prev">
+      <div class="preview">
+        <div class="preview__img"></div>
+      </div>
+      <div class="swiper-button-arrow"></div>
+    </div>
+    <div class="swiper-button-next">
+      <div class="swiper-button-arrow"></div>
+      <div class="preview">
+        <div class="preview__img"></div>
+      </div>
+    </div>
+  </section>

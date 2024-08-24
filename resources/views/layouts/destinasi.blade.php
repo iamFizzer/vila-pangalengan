@@ -1,30 +1,27 @@
-<div class="container-fluid service py-5">
-  <div class="container py-5">
-      <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.2s">
-          <div class="sub-style">
-              <h4 class="sub-title px-3 mb-0">Villa Yang tersedia</h4>
+<section class="section section-lg bg-default">
+  <div class="container">
+    <h3 class="oh-desktop"><span class="d-inline-block wow slideInUp">Selected Villa</span></h3>
+    <div class="row row-lg row-30">
+      @foreach ($data as $item)      
+      <div class="col-sm-6 col-lg-4 col-xl-3">
+        <!-- Product-->
+        <article class="product wow fadeInLeft" data-wow-delay=".15s">
+          <div class="product-figure"><img src="{{asset('gambar')}}/{{$item->destination_pict}}" alt="" width="161" height="162"/>
           </div>
-          <h1 class="display-3 mb-4">Villa Situ Cileunca Pangalengan.</h1>
-          <p class="mb-0">Berikut Villa Yang di Sediakan</p>
-      </div>
-      <div class="row g-4 justify-content-center">
-        @foreach ($data as $item)
-        <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
-          <div class="service-item rounded">
-             <div class="service-img rounded-top">
-                  <img src="{{asset('gambar')}}/{{$item->destination_pict}}" class="img-fluid rounded-top w-100" alt="">
-             </div>
-              <div class="service-content rounded-bottom bg-light p-4">
-                  <div class="service-content-inner">
-                      <h5 class="mb-4">{{$item->destination_name}}</h5>
-                      <p class="mb-4">{{$item->desc}}</p>
-                      <a href="https://wa.me/+628" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Book Now</a>
-                      <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Detail</a>
-                  </div>
-              </div>
+          <div class="product-rating"><span class="mdi mdi-star"></span><span class="mdi mdi-star"></span><span class="mdi mdi-star"></span><span class="mdi mdi-star"></span><span class="mdi mdi-star text-gray-13"></span>
           </div>
+          <h6 class="product-title">{{$item->destination_name}}</h6>
+          <div class="product-price-wrap">
+            <div class="product-price">Weekday : {{$item->price_weekday}} / day</div>
+            <div class="product-price">Weekend : {{$item->price_weekend}} / day</div>
+          </div>
+          <div class="product-button">
+            <div class="button-wrap"><a class="button button-xs button-primary button-winona" href="https://wa.me/+628">Book Now</a></div>
+            <div class="button-wrap"><a class="button button-xs button-secondary button-winona" href="#">View</a></div>
+          </div>
+        </article>
       </div>
-        @endforeach
-      </div>
+      @endforeach
+    </div>
   </div>
-</div>
+</section>
