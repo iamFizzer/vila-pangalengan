@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\DestinasiController;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LandingController;
 use App\Http\Controllers\PaketController;
 use Illuminate\Support\Facades\Auth;
@@ -24,7 +25,7 @@ Route::get('/view/destinasi/{id}', [LandingController::class, 'views']);
 
 Auth::routes();
 
-Route::get('/admin/dashboard', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/admin/dashboard', [HomeController::class, 'index'])->name('home');
 
 //Destinasi
 Route::get('/admin/destinasi',[DestinasiController::class, 'destinasi'])->name('destinasi');
