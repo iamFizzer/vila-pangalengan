@@ -15,4 +15,10 @@ class LandingController extends Controller
         // dd($data);
         return view('index', compact('data','paket'));
     }
+
+    public function views($id)
+    {
+        // $data = Destinasi::with('galeris')->get();
+        return view('front-end.views');
+    }
 }

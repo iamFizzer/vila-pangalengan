@@ -17,7 +17,7 @@
           </div>
           <div class="product-button">
             <div class="button-wrap"><a class="button button-xs button-primary button-winona" href="https://wa.me/+628">Book Now</a></div>
-            <div class="button-wrap"><a class="button button-xs button-secondary button-winona" href="#">View</a></div>
+            <div class="button-wrap"><a class="button button-xs button-secondary button-winona" href="/view/destinasi/{{$item->id}}">View</a></div>
           </div>
         </article>
       </div>

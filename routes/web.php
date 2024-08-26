@@ -17,7 +17,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//Front-end
 Route::get('/', [LandingController::class, 'index'])->name('landing');
+Route::get('/view/destinasi/{id}', [LandingController::class, 'views']);
+
 
 Auth::routes();
 
