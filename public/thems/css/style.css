@@ -5424,6 +5424,10 @@ html [class*='section-'].section-top-0 {
 .bg-gray-dark h1,
 .bg-primary h1, .context-dark h2, .bg-gray-dark h2, .bg-primary h2, .context-dark h3, .bg-gray-dark h3, .bg-primary h3, .context-dark h4, .bg-gray-dark h4, .bg-primary h4, .context-dark h5, .bg-gray-dark h5, .bg-primary h5, .context-dark h6, .bg-gray-dark h6, .bg-primary h6, .context-dark [class^='heading-'], .bg-gray-dark [class^='heading-'], .bg-primary [class^='heading-'] {
 	color: #ffffff;
+	text-shadow: -1px 2px 3px #000,
+				  1px 2px 3px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
 }
 
 .context-dark:not(.section-single):not(.form-default) .form-validation, .bg-gray-dark:not(.section-single):not(.form-default) .form-validation, .bg-primary:not(.section-single):not(.form-default) .form-validation,
@@ -5434,6 +5438,7 @@ html [class*='section-'].section-top-0 {
 .bg-gray-dark:not(.section-single):not(.form-default) .form-input,
 .bg-primary:not(.section-single):not(.form-default) .form-input {
 	color: #ffffff;
+	
 }
 
 
@@ -9577,6 +9582,7 @@ html.rd-navbar-fixed-linked .page {
 
 .swiper-slider-2 .swiper-title {
 	font-weight: 700;
+	border: 1px;
 }
 
 .swiper-slider-2 .swiper-text {
