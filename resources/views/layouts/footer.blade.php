@@ -13,7 +13,7 @@
               <div class="footer-modern-contacts wow slideInUp">
                 <div class="unit unit-spacing-sm align-items-center">
                   <div class="unit-left"><span class="icon icon-24 mdi mdi-phone"></span></div>
-                  <div class="unit-body"><a class="phone" href="tel:#">+628.....</a></div>
+                  <div class="unit-body"><a class="phone" href="tel:+6281222025353">+6281222025353</a></div>
                 </div>
               </div>
               <div class="footer-modern-contacts wow slideInDown">

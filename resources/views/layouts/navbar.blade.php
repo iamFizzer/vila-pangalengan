@@ -17,7 +17,7 @@
                   <li>
                     <div class="unit unit-spacing-xs">
                       <div class="unit-left"><span class="icon mdi mdi-phone"></span></div>
-                      <div class="unit-body"><a class="phone" href="tel:#">+628...</a></div>
+                      <div class="unit-body"><a class="phone" href="tel:+6281222025353">+6281222025353</a></div>
                     </div>
                   </li>
                   <li>
@@ -50,7 +50,7 @@
               <div class="project-hamburger"><span class="project-hamburger-arrow"></span><span class="project-hamburger-arrow"></span><span class="project-hamburger-arrow"></span>
               </div>
             </div>
-            <div class="rd-navbar-project">
+            {{-- <div class="rd-navbar-project">
               <div class="rd-navbar-project-header">
                 <h5 class="rd-navbar-project-title">Gallery</h5>
                 <div class="rd-navbar-project-hamburger rd-navbar-project-hamburger-close" data-multitoggle=".rd-navbar-inner" data-multitoggle-blur=".rd-navbar-wrap" data-multitoggle-isolate="data-multitoggle-isolate">
@@ -105,7 +105,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> --}}
           </div>
         </div>
       </nav>

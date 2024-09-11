@@ -68,7 +68,7 @@
                       <li>
                         <div class="unit unit-spacing-xs">
                           <div class="unit-left"><span class="icon mdi mdi-phone"></span></div>
-                          <div class="unit-body"><a class="phone" href="/tel:+628...">+628....</a></div>
+                          <div class="unit-body"><a class="phone" href="/tel:+6281222025353">+6281222025353</a></div>
                         </div>
                       </li>
                       <li>
@@ -110,7 +110,6 @@
             <h3 class="breadcrumbs-custom-title">Detail Villa</h3>
             <div class="breadcrumbs-custom-decor"></div>
           </div>
-          <div class="box-transform" style="background-image: url(images/bg-1.jpg);"></div>
         </div>
         <div class="container">
           <ul class="breadcrumbs-custom-path">
@@ -122,46 +121,39 @@
       <section class="section section-lg bg-default">
         <div class="container">
           <div class="tabs-custom row row-50 justify-content-center flex-lg-row-reverse text-center text-md-left" id="tabs-4">
-            <div class="col-lg-4 col-xl-3">
-              <h5 class="text-spacing-200 text-capitalize">10+ years of experience</h5>
-              <ul class="nav list-category list-category-down-md-inline-block">
-                <li class="list-category-item wow fadeInRight" role="presentation" data-wow-delay="0s"><a class="active" href="{{asset('thems')}}/#tabs-4-1" data-toggle="tab">About us</a></li>
-                <li class="list-category-item wow fadeInRight" role="presentation" data-wow-delay=".1s"><a href="{{asset('thems')}}/#tabs-4-2" data-toggle="tab">Our Mission</a></li>
-                <li class="list-category-item wow fadeInRight" role="presentation" data-wow-delay=".2s"><a href="{{asset('thems')}}/#tabs-4-3" data-toggle="tab">Our Goals</a></li>
-                <li class="list-category-item wow fadeInRight" role="presentation" data-wow-delay=".3s"><a href="{{asset('thems')}}/#tabs-4-4" data-toggle="tab">Our Values</a></li>
-              </ul><a class="button button-xl button-primary button-winona" href="{{asset('thems')}}/contacts.html">Contact us</a>
-            </div>
             <div class="col-lg-8 col-xl-9">
               <!-- Tab panes-->
               <div class="tab-content tab-content-1">
                 <div class="tab-pane fade show active" id="tabs-4-1">
-                  <h4>a few words about us</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.</p><img src="{{asset('thems')}}/images/about-1-835x418.jpg" alt="" width="835" height="418"/>
-                </div>
-                <div class="tab-pane fade" id="tabs-4-2">
-                  <h4>Offering the Best Pizza in Los Angeles</h4>
-                  <p>Lotus advenas ducunt ad gemna. Ubi est domesticus domina? Heu, barbatus mens! Cum elogium favere, omnes lubaes tractare talis, barbatus adiuratores. Mirabilis hydras ducunt ad danista. Dominas sunt accentors de germanus cacula. Amicitias prarere in alta muta! Ecce, bubo! Nunquam promissio verpa. Talis, primus fugas recte consumere de audax, festus indictio. Nunquam quaestio scutum. Valebats</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><img src="{{asset('thems')}}/images/about-1-835x418.jpg" alt="" width="835" height="418"/>
-                </div>
-                <div class="tab-pane fade" id="tabs-4-3">
-                  <h4>Providing Top-notch Customer Service</h4>
-                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur.</p>
-                  <p>Lotus advenas ducunt ad gemna. Ubi est domesticus domina? Heu, barbatus mens! Cum elogium favere, omnes lubaes tractare talis, barbatus adiuratores. Mirabilis hydras ducunt ad danista. Dominas sunt accentors de germanus cacula. Amicitias prarere in alta muta! Ecce, bubo! Nunquam promissio verpa. Talis, primus fugas recte consumere de audax, festus indictio. Nunquam quaestio scutum. Valebats</p><img src="{{asset('thems')}}/images/about-1-835x418.jpg" alt="" width="835" height="418"/>
-                </div>
-                <div class="tab-pane fade" id="tabs-4-4">
-                  <h4>Integrity & Dedication</h4>
-                  <p>Albus, dexter particulas grauiter consumere de ferox, bi-color abactus. Impositios studere, tanquam mirabilis hippotoxota. Cur torus manducare? Pol, vox! Cum barcas nocere, omnes specieses contactus</p>
-                  <p>Lotus advenas ducunt ad gemna. Ubi est domesticus domina? Heu, barbatus mens! Cum elogium favere, omnes lubaes tractare talis, barbatus adiuratores. Mirabilis hydras ducunt ad danista. Dominas sunt accentors de germanus cacula. Amicitias prarere in alta muta! Ecce, bubo! Nunquam promissio verpa. Talis, primus fugas recte consumere de audax, festus indictio. Nunquam quaestio scutum. Valebats</p><img src="{{asset('thems')}}/images/about-1-835x418.jpg" alt="" width="835" height="418"/>
-                </div>
+                  <h4>Tentang {{$data->destination_name}}</h4>
+                  <p>{{$data->desc}}</p>
+                  <img src="{{asset('gambar/'.$data->destination_pict)}}" alt="" width="835" height="418"/>
+
+                  <div class="card">
+                    <table class="table table-bordered">
+                      <thead>
+                        <th>Weekend</th>
+                        <th>Weekday</th>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>{{$data->price_weekend}}</td>
+                          <td>{{$data->price_weekday}}</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                 </div>
+                 
               </div>
+              <a href="https://wa.me/+6281222025353" class="button button-lg button-primary button-winona button-shadow-2">BOOK NOW</a>
             </div>
           </div>
         </div>
       </section>
 
       <!-- Icon Classic-->
-      <section class="section section-lg bg-gray-100">
+      {{-- <section class="section section-lg bg-gray-100">
         <div class="container">
           <div class="row row-md row-50">
             <div class="col-sm-6 col-xl-4 wow fadeInUp" data-wow-delay="0s">
@@ -205,10 +197,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> --}}
 
       <!-- Our Team-->
-      <section class="section section-lg section-bottom-md-70 bg-default">
+      {{-- <section class="section section-lg section-bottom-md-70 bg-default">
         <div class="container">
           <h3 class="oh"><span class="d-inline-block wow slideInUp" data-wow-delay="0s">our team</span></h3>
           <div class="row row-lg row-40 justify-content-center">
@@ -324,10 +316,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> --}}
 
       <!-- Our clients-->
-      <section class="section section-lg bg-default text-md-left">
+      {{-- <section class="section section-lg bg-default text-md-left">
         <div class="container">
           <div class="row row-60 justify-content-center flex-lg-row-reverse">
             <div class="col-md-8 col-lg-6 col-xl-5">
@@ -386,48 +378,17 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> --}}
 
-      <!-- Bottom Banner--><a class="section section-banner" href="{{asset('thems')}}/https://www.templatemonster.com/intense-multipurpose-html-template.html" style="background-image: url(images/banner/background-03-1920x310.jpg); background-image: -webkit-image-set( url(images/banner/background-03-1920x310.jpg) 1x, url(images/banner/background-03-3840x620.jpg) 2x )"><img src="{{asset('thems')}}/images/banner/foreground-03-1600x310.png" srcset="images/banner/foreground-03-1600x310.png 1x, images/banner/foreground-03-3200x620.png 2x" alt="" width="1600" height="310"></a>
       <!-- Page Footer-->
       <footer class="section footer-modern context-dark footer-modern-2">
-        <div class="footer-modern-line">
-          <div class="container">
-            <div class="row row-50">
-              <div class="col-md-6 col-lg-4">
-                <h5 class="footer-modern-title oh-desktop"><span class="d-inline-block wow slideInLeft">What We Offer</span></h5>
-                <ul class="footer-modern-list d-inline-block d-sm-block wow fadeInUp">
-                  <li><a href="{{asset('thems')}}/#">Pizzas</a></li>
-                  <li><a href="{{asset('thems')}}/#">Burgers</a></li>
-                  <li><a href="{{asset('thems')}}/#">Salads</a></li>
-                  <li><a href="{{asset('thems')}}/#">Drinks</a></li>
-                  <li><a href="{{asset('thems')}}/#">Seafood</a></li>
-                  <li><a href="{{asset('thems')}}/#">Drinks</a></li>
-                </ul>
-              </div>
-              <div class="col-md-6 col-lg-4 col-xl-3">
-                <h5 class="footer-modern-title oh-desktop"><span class="d-inline-block wow slideInLeft">Information</span></h5>
-                <ul class="footer-modern-list d-inline-block d-sm-block wow fadeInUp">
-                  <li><a href="{{asset('thems')}}/about-us.html">About us</a></li>
-                  <li><a href="{{asset('thems')}}/#">Latest News</a></li>
-                  <li><a href="{{asset('thems')}}/#">Our Menu</a></li>
-                  <li><a href="{{asset('thems')}}/#">FAQ</a></li>
-                  <li><a href="{{asset('thems')}}/#">Shop</a></li>
-                  <li><a href="{{asset('thems')}}/contacts.html">Contact Us</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
         <div class="footer-modern-line-2">
           <div class="container">
             <div class="row row-30 align-items-center">
               <div class="col-sm-6 col-md-7 col-lg-4 col-xl-4">
                 <div class="row row-30 align-items-center text-lg-center">
-                  <div class="col-md-7 col-xl-6"><a class="brand" href="{{asset('thems')}}/index.html"><img src="{{asset('thems')}}/images/logo-inverse-198x66.png" alt="" width="198" height="66"/></a></div>
-                  <div class="col-md-5 col-xl-6">
-                    <div class="iso-1"><span><img src="{{asset('thems')}}/images/like-icon-58x25.png" alt="" width="58" height="25"/></span><span class="iso-1-big">9.4k</span></div>
-                  </div>
+                  <div class="col-md-7 col-xl-6"><a class="brand" href="/"><img src="{{asset('gambar')}}/logo.png" alt="" width="198" height="66"/></a></div>
+                  
                 </div>
               </div>
               <div class="col-sm-6 col-md-12 col-lg-8 col-xl-8 oh-desktop">
@@ -435,21 +396,21 @@
                   <div class="footer-modern-contacts wow slideInUp">
                     <div class="unit unit-spacing-sm align-items-center">
                       <div class="unit-left"><span class="icon icon-24 mdi mdi-phone"></span></div>
-                      <div class="unit-body"><a class="phone" href="{{asset('thems')}}/tel:#">+1 718-999-3939</a></div>
+                      <div class="unit-body"><a class="phone" href="tel:#">+6281222025353</a></div>
                     </div>
                   </div>
                   <div class="footer-modern-contacts wow slideInDown">
                     <div class="unit unit-spacing-sm align-items-center">
                       <div class="unit-left"><span class="icon mdi mdi-email"></span></div>
-                      <div class="unit-body"><a class="mail" href="{{asset('thems')}}/mailto:#">info@demolink.org</a></div>
+                      <div class="unit-body"><a class="mail" href="mailto:#">info@villasitucileunca.com</a></div>
                     </div>
                   </div>
                   <div class="wow slideInRight">
                     <ul class="list-inline footer-social-list footer-social-list-2 footer-social-list-3">
-                      <li><a class="icon mdi mdi-facebook" href="{{asset('thems')}}/#"></a></li>
-                      <li><a class="icon mdi mdi-twitter" href="{{asset('thems')}}/#"></a></li>
-                      <li><a class="icon mdi mdi-instagram" href="{{asset('thems')}}/#"></a></li>
-                      <li><a class="icon mdi mdi-google-plus" href="{{asset('thems')}}/#"></a></li>
+                      <li><a class="icon mdi mdi-facebook" href="#"></a></li>
+                      <li><a class="icon mdi mdi-twitter" href="#"></a></li>
+                      <li><a class="icon mdi mdi-instagram" href="#"></a></li>
+                      <li><a class="icon mdi mdi-google-plus" href="#"></a></li>
                     </ul>
                   </div>
                 </div>
@@ -460,10 +421,10 @@
         <div class="footer-modern-line-3">
           <div class="container">
             <div class="row row-10 justify-content-between">
-              <div class="col-md-6"><span>514 S. Magnolia St. Orlando, FL 32806</span></div>
+              <div class="col-md-6"><span>Situ Cileunca Pangalengan</span></div>
               <div class="col-md-auto">
                 <!-- Rights-->
-                <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span></span><span>.&nbsp;</span><span>All Rights Reserved.</span><span> Design&nbsp;by&nbsp;<a href="{{asset('thems')}}/https://www.templatemonster.com">TemplateMonster</a></span></p>
+                <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span></span><span>.&nbsp;</span><span>All Rights Reserved.</span></span></p>
               </div>
             </div>
           </div>

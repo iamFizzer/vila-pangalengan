@@ -7,7 +7,7 @@
               <div class="row">
                 <div class="col-sm-9 col-md-8 col-lg-7 col-xl-7 offset-lg-1 offset-xxl-0">
                   <h1 class="oh swiper-title"><span class="d-inline-block" data-caption-animate="slideInUp" data-caption-delay="0">{{$hero->destination_name}}</span></h1>
-                  <p class="big swiper-text" data-caption-animate="fadeInLeft" data-caption-delay="300">{{$hero->desc}}</p><a class="button button-lg button-primary button-winona button-shadow-2" href="https://wa.me/+628" data-caption-animate="fadeInUp" data-caption-delay="300">Book Now</a>
+                  <p class="big swiper-text" data-caption-animate="fadeInLeft" data-caption-delay="300">{{$hero->desc}}</p><a class="button button-lg button-primary button-winona button-shadow-2" href="https://wa.me/+6281222025353" data-caption-animate="fadeInUp" data-caption-delay="300">Book Now</a>
                 </div>
               </div>
             </div>
